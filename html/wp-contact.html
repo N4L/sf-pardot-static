@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style type="text/css">
+		body, input, textarea {
+			font-family: "Open Sans", Verdana , Arial, sans-serif;
+			font-size: 14px;
+			margin: 0;
+		}
+
+		form {
+			--input-padding: 16px;
+		}
+
+		label {
+			display: none;
+		}
+
+		input, textarea {
+			width: calc(100% - (var(--input-padding) * 2));
+			padding: var(--input-padding);
+			border: none;
+			color: #999;
+			background-color: #eee;
+			font-size: 1rem;
+			-webkit-appearance: none;
+		}
+
+		input[type="submit"] {
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			color: white;
+			background: #f7941e;
+			width: 100px;
+			height: 50px;
+			cursor: pointer;
+			position: absolute;
+			right: 0;
+		}
+	</style>
+
+</head>
+<body>
+
+%%content%%
+
+<script>
+	// dynamically create placeholders in inputs
+	const labels = document.getElementsByTagName('LABEL');
+	for (i=0; i < labels.length; i++) {
+		var target;
+		if (target = document.getElementById(labels[i].htmlFor)) {
+			target.setAttribute('placeholder', labels[i].innerText)
+		}
+	}
+</script>
+
+</body>
+</html>
