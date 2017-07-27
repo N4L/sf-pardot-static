@@ -20,7 +20,8 @@
 		}
 
 		input, textarea {
-			width: calc(100% - (var(--input-padding) * 2));
+			box-sizing: border-box;
+			width: 100%;
 			padding: var(--input-padding);
 			border: none;
 			color: #999;
@@ -41,6 +42,21 @@
 			position: absolute;
 			right: 0;
 		}
+
+		/* Error display handling */
+		.errors {
+			color: red;
+			font-weight: bolder !important;
+		}
+
+		.error.no-label {
+			display: none;
+		}
+
+		.error > input, .error > textarea {
+			border: 1px solid red;
+		}
+
 	</style>
 
 </head>
