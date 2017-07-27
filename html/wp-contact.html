@@ -51,7 +51,7 @@
 <script>
 	// dynamically create placeholders in inputs
 	const labels = document.getElementsByTagName('LABEL');
-	for (i=0; i < labels.length; i++) {
+	for (var i=0; i < labels.length; i++) {
 		var target;
 		if (target = document.getElementById(labels[i].htmlFor)) {
 			target.setAttribute('placeholder', labels[i].innerText)
