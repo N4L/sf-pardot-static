@@ -15,6 +15,11 @@
 }
 
 /* Miscellaneous customised stuff */
+.cHeaderPanel .cProfileCon .login svg {
+	/* This is to fix icon alignment */
+	vertical-align: baseline;
+}
+
 .home-page-tiles {
 	--td-padding: 3px;
 	--max-td-width: 240px;
@@ -24,6 +29,26 @@
 
 .home-page-tiles td {
 	padding: var(--td-padding);
+}
+
+.home-page-tiles td .caption {
+	/* CSS trick to vertically/horizontally center the text */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+
+@media only screen and (max-width: 768px) {
+	.home-page-tiles td .caption {
+		font-size: 0.75rem;
+	}
 }
 
 article h2 {
