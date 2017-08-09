@@ -29,6 +29,7 @@
 
 .home-page-tiles td {
 	padding: var(--td-padding);
+	position: relative;
 }
 
 .home-page-tiles td .caption {
