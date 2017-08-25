@@ -19,6 +19,54 @@
 	}
 }
 
+/* Custom footer */
+.template-footer {
+	border-top: 1px solid #cccccc;
+	padding-top: 1em;
+	line-height: 175%;
+}
+
+.template-footer .right-column {
+	float: right;
+	margin-right: 1em;
+}
+
+.template-footer .n4l-links {
+	display: inline-block;
+	margin-bottom:  1em;
+}
+
+.template-footer .social-links {
+	margin-bottom: 1em;
+}
+
+.template-footer .copyright {
+	margin-bottom: 1em;
+}
+
+.template-footer .social-links li {
+	display: inline-block
+}
+
+.template-footer ul,  .template-footer li{
+	list-style: none;
+}
+
+.template-footer li::before {
+	content: initial !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.template-footer .right-column {
+		float: none;
+		display: block;
+	}
+	
+	.template-footer .n4l-links {
+		display: block;
+	}
+}
+
 /* This takes care of the weird inverse colour link is set to on login form by default */
 .salesforceIdentityLoginBody2 a {
 	color:#44C8F5 !important;
