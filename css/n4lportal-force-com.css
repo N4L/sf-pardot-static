@@ -23,7 +23,10 @@
 .template-footer {
 	border-top: 1px solid #cccccc;
 	padding-top: 1em;
+	padding-bottom: 1em;
+	min-height: 10em;
 	line-height: 175%;
+	background-color: #fbfcf9;
 }
 
 .template-footer .right-column {
