@@ -114,7 +114,6 @@
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	
 }
 
 @media only screen and (max-width: 768px) {
@@ -125,4 +124,61 @@
 
 article h2 {
 	margin-top: 1.75rem;
+}
+
+/* Custom training page stuff */
+.hero-training-materials {
+	text-align: center;
+}
+
+.hero-training-materials ul, .hero-training-materials li {
+	list-style: none;
+	padding-left: 0 !important;
+	margin-right: 8px;
+}
+
+.hero-training-materials li::before {
+	content: initial !important;
+}
+
+.hero-training-materials li {
+	display: inline-block;
+	width: 33%;
+	height: 250px;
+	
+}
+
+.hero-training-materials li a {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.hero-training-materials li a span {
+	/* CSS trick to vertically/horizontally center the text */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: white;
+	font-weight: bold;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.hero-training-materials li {
+		width: 75%;
+		height: 200px;
+		margin-bottom: 8px;
+	}
+}
+
+.hero-training-materials li.raspberry-pi {
+	background: #990d76;
+}
+
+.hero-training-materials li.remote-access {
+	background: #f74e2a;
 }
