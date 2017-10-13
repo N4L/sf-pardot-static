@@ -154,7 +154,7 @@ article h2 {
 	display: inline-block;
 	width: 33%;
 	height: 250px;
-	
+	background: no-repeat center -50px;
 }
 
 .hero-training-materials li a {
@@ -164,30 +164,19 @@ article h2 {
 	display: block;
 }
 
-.hero-training-materials li a span {
-	/* CSS trick to vertically/horizontally center the text */
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	color: white;
-	font-weight: bold;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
 @media only screen and (max-width: 768px) {
 	.hero-training-materials li {
 		width: 75%;
 		height: 200px;
 		margin-bottom: 8px;
+		background-position: center -80px;
 	}
 }
 
 .hero-training-materials li.raspberry-pi {
-	background: #990d76;
+	background-image: url(https://c.ap1.content.force.com/servlet/servlet.ImageServer?id=0159000000Ei1XL&oid=00D90000000leYP);
 }
 
 .hero-training-materials li.remote-access {
-	background: #f74e2a;
+	background-image: url(https://c.ap1.content.force.com/servlet/servlet.ImageServer?id=0159000000Ei1VU&oid=00D90000000leYP);
 }
