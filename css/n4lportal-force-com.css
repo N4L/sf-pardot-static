@@ -79,6 +79,21 @@ h5 {
 	}
 }
 
+/* Custom sign up button */
+a.button__sign-up {
+	margin: 15px 0;
+	padding: 10px 12px;
+	color: rgb(100, 101, 104) !important;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid rgb(100, 101, 104);
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 2px;
+}
+
 /* This takes care of the weird inverse colour link is set to on login form by default */
 .salesforceIdentityLoginBody2 a {
 	color:#44C8F5 !important;
