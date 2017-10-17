@@ -79,7 +79,10 @@ h5 {
 	}
 }
 
-/* Custom sign up button */
+/*
+Custom sign up button - it's used inline now only, but for the reference hosted here. Make sure any update here
+makes it into inline style and vice versa.
+ */
 a.button__sign-up {
 	margin: 15px 0;
 	padding: 10px 12px;
@@ -113,6 +116,19 @@ a.button__sign-up {
 .cHeaderPanel .cProfileCon .login svg {
 	/* This is to fix icon alignment */
 	vertical-align: baseline;
+}
+
+/* Next two rules are to override box size displaying the link label */
+@media only screen and (min-width: 64.0625em) {
+	.siteforceNapiliBody .cProfileCon {
+		width: 20% !important;
+	}
+}
+
+@media only screen and (min-width: 48em) {
+	.siteforceNapiliBody .cProfileCon {
+		width: 25% !important;
+	}
 }
 
 .home-page-tiles {
