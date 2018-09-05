@@ -1,7 +1,7 @@
-script {}form {
-             border: 2px solid #f3f3f3;
-             padding: 24px;
-         }
+form {
+    border: 2px solid #f3f3f3;
+    padding: 24px;
+}
 
 p.submit, p.form-field {
     margin: 0;
