@@ -222,3 +222,208 @@ article h2 {
 	max-width: 500px;
 	margin: auto;
 }
+
+.siteforceServiceBody .cProfileCon .login .linkLabel {
+	color: #0070d2 !important; 
+	text-shadow:none !important
+}
+
+.forceCommunityRichText a {
+	color:#0070d2 !important
+}
+
+.siteforceServiceBody .cProfileCon a.trigger-link {
+	color:#0070d2 !important; 
+	text-shadow: none !important
+}
+
+.forceCommunitySearchBox .search-field {
+	border: 1px solid #e4e4e5 !important
+}
+
+.forceCommunitySearchBox .search-button {
+	display: none !important
+}
+
+body .siteforceServiceBody .cHeaderOverlay {
+	background: #FFFFFF
+}
+
+body .siteforceServiceBody .cHeaderLine {
+	padding-top: 10px !important; 
+	padding-bottom:10px !important
+}
+
+body .siteforceServiceBody .cHeaderLine {
+	max-width: none; 
+	border-bottom: 3px solid #980d76 !important
+}
+
+body .siteforceServiceBody .cHeaderPanel {
+	height:106px !important
+}
+
+
+.siteforceServiceBody .cAltToggleNav .slds-button__icon {
+	color:#646568 !important
+}
+
+.siteforceServiceBody .cSearchPublisher .mobile-search-icon {
+	color:#646568 !important
+}
+
+.slds-button slds-button_neutral mobile-search-icon {
+	color:#646568 !important
+}
+
+.slds-button__icon slds-button__icon_left {
+	color:#646568 !important
+}
+
+@media only screen and (max-width: 47.9375em) {
+	.forceCommunitySearchBox.focused .body-search {
+		left: 0 !important; width: 96%!important; margin: 8px
+	}
+}
+
+@media only screen and (max-width: 47.9375em) {
+	.siteforceServiceBody .cProfileCon {
+		width:auto !important; max-width:none !important
+	}
+}
+
+
+body .forceCommunityHomeTabs .forceTopicFeaturedTopics .topicContent {
+	background-color:transparent;
+}
+
+body .forceTopicFeaturedTopics .topicContent {
+	background-color:transparent;
+}
+
+.forceCommunityHomeTabs .forceTopicFeaturedTopics .topicLabel {
+	display: none;
+}
+
+.selfServiceArticleLayout .uiOutputRichText ul{
+	padding-left: 20px
+}
+
+.selfServiceArticleLayout .uiOutputRichText ol{
+	padding-left: 20px
+}
+
+.selfServiceArticleLayout .uiOutputRichText table{
+	display:table
+}
+
+body .selfServiceArticleListItem .article-head {
+	font-size:1rem
+}
+
+body .selfServiceUserProfileMenu .login .linkLabel {
+	font-size: 0.9rem
+}
+
+body .selfServiceArticleLayout .forcePageBlockSectionView .full .test-id__field-label {
+	font-size:0.7rem
+}
+
+.selfServiceArticleLayout .uiOutputRichText {
+	font-size:0.825rem
+}
+
+.forceCommunityForceCommunityFeed  .forceChatterFeedItem {
+	font-size:0.825rem
+}
+
+.selfServiceArticleLayout .uiOutputText {
+	font-size:0.825rem
+}
+
+.selfServiceArticleLayout .uiOutputRichText .h4 {
+	font-size: 0.875rem; 
+	font-weight:bold
+}
+
+.selfServiceArticleLayout .uiOutputRichText .h3 {
+	font-size: 1.075rem; 
+	font-weight:normal
+}
+
+.selfServiceArticleLayout .uiOutputRichText .h2 {
+	font-size: 1.1rem; 
+	font-weight:bold
+}
+
+.selfServiceArticleLayout .uiOutputRichText .h1 {
+	font-size: 1.2rem; 
+	font-weight:normal
+}
+
+.selfServiceCaseCreate .forceRecordLayout .textarea {
+	height:300px
+}
+
+.slds-text-align--center {
+	text-align:left
+}
+
+.forceChatterGroupAnnouncement .announcementIcon {
+	display:none
+}
+
+body .salesforceIdentityLoginForm2 .uiButton {
+	background-color:transparent; 
+	border:1px solid lightgrey; 
+	color:#646568
+}
+
+body .salesforceIdentityLoginForm2 .uiButton .label {
+	color:#646568
+}
+
+body .siteforceServiceBody .cProfileCon a.trigger-link {
+	color:#0070d2; 
+	text-shadow: none
+}
+
+body .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop .contentWrapper {
+	border-color: #DDDBDA
+}
+
+body .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop .contentWrapper .slds-input__icon {
+	color: #646568
+}
+
+body .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop .contentWrapper .slds-input {
+	color: #646568 !important
+}
+
+body .forceSearchInputDesktop input::placeholder, .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop .contentWrapper .slds-input__icon {
+	color:#646568}
+
+body .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop .input {
+	color:#8f9092 !important
+}
+
+body .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop input, .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop input::-webkit-input-placeholder, .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop .contentWrapper .slds-input__icon {
+	color: #646568 !important
+}
+
+.siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop input, .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop input::placeholder, .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop .contentWrapper .slds-input__icon {
+	color:#646568 !important
+} 
+
+.siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop input, .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop input::-webkit-input-placeholder, .siteforceServiceBody .cSearchPublisher .forceCommunityGlobalSearchInput .forceSearchInputDesktop .contentWrapper .slds-input__icon {
+	color:#646568 !important
+}
+
+.siteforceServiceBody .cProfileCon .login .linkLabel {
+	color: #0070d2; 
+	text-shadow:none !important
+}
+
+.forceCommunityRichText a {
+	color:#0070d2 !important
+}
